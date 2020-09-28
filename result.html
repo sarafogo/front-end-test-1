@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Front End Test - Greenthumb</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="main-div">
+        <img style="margin-left:100px;" src="images/hero/logo.svg" alt="Greenthumb" />
+        <section>
+            <h1 id="top">Find your next green friend</h1>
+        </section>
+
+        <section class="section-selection">
+            <div class="selection-div">
+                <img style="height:75px;" src="images/hero/sun.svg" alt="sun with glasses">
+                <p><b>1.</b> Set the amount of <b>sunlight</b> your plant will get.</p>
+                <input placeholder="Select...">
+            </div>
+            <div class="selection-div">
+                <img style="height:75px;" src="images/hero/wateringcan.svg" alt="wateringcan smilling">
+                <p><b>2.</b>How often do tou want to <b>water</b> your plant?</p>
+                <input placeholder="Select...">
+            </div>
+            <div class="selection-div">
+                <img style="height:75px;" src="images/hero/dog.svg" alt="head of a cute dog">
+                <p><b>3.</b>Do you have pets? Do they <b>chew</b> plants?</p>
+                <input placeholder="Select...">
+            </div>
+        </section>
+
+        <!-- Result -->
+
+        <section class="result-section">
+            <div>
+                <img class="result-img" src="images/results/icons/hand.svg" alt="drawn of a hand holding a branch">
+                <h3>Our picks for you</h3>
+            </div>
+            <div style="text-align: center;">
+                <div class="result-grid">
+                    <div class="result-card">
+                        <img src="images/results/plants/euphorbia-eritrea.jpg" alt="">
+                        <p class="plant-info">Euphorbia eritrea</p>
+                        <div style="display:flex;justify-content:space-around;">
+                            <p class="plant-info">$25</p>
+                            <div>
+                                <img src="images/results/icons/pet.svg" alt="drawn of a dog">
+                                <img src="images/results/icons/sun.svg" alt=" drawn of a sun">
+                                <img src="images/results/icons/watering.svg" alt="drawn of two drops">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card">
+                        <img src="images/results/plants/succulent-bowl-large.jpg" alt="">
+                        <p class="plant-info">Suculent bowl</p>
+                        <div style="display: flex;justify-content: space-around;">
+                            <p class="plant-info">$30</p>
+                            <div>
+                                <img src="images/results/icons/pet.svg" alt="drawn of a dog">
+                                <img src="images/results/icons/sun.svg" alt="drawn of a sun">
+                                <img src="images/results/icons/watering.svg" alt="drawn of two drops">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card">
+                        <img src="images/results/plants/bunny-ears-cacti.jpg" alt="">
+                        <p class="plant-info">Bunny ears cacti</p>
+                        <div style="display: flex;justify-content: space-around;">
+                            <p class="plant-info">$20</p>
+                            <div>
+                                <img src="images/results/icons/pet.svg" alt="drawn of a dog">
+                                <img src="images/results/icons/sun.svg" alt="drawn of a sun">
+                                <img src="images/results/icons/watering.svg" alt="drawn of two drops">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-grid">
+                    <div class="result-card">
+                        <img src="images/results/plants/ficus-lyrata.jpg" alt="">
+                        <p class="plant-info">Ficus lyrata</p>
+                        <div style="display: flex;justify-content: space-around;">
+                            <p class="plant-info">$30</p>
+                            <div>
+                                <img src="images/results/icons/pet.svg" alt="drawn of a dog">
+                                <img src="images/results/icons/sun.svg" alt="drawn of a sun">
+                                <img src="images/results/icons/watering.svg" alt="drawn of two drops">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card">
+                        <img src="images/results/plants/lucky-bamboo.jpg" alt="">
+                        <p class="plant-info">Lucky bamboo</p>
+                        <div style="display: flex;justify-content: space-around;">
+                            <p class="plant-info">$15</p>
+                            <div>
+                                <img src="images/results/icons/pet.svg" alt="drawn of a dog">
+                                <img src="images/results/icons/sun.svg" alt="drawn of a sun">
+                                <img src="images/results/icons/watering.svg" alt="drawn of two drops">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card">
+                        <img src="images/results/plants/ponytail-palm.jpg" alt="">
+                        <p class="plant-info">Ponytail palm</p>
+                        <div style="display: flex;justify-content: space-around;">
+                            <p class="plant-info">$50</p>
+                            <div>
+                                <img src="images/results/icons/pet.svg" alt="drawn of a dog">
+                                <img src="images/results/icons/sun.svg" alt="drawn of a sun">
+                                <img src="images/results/icons/watering.svg" alt="drawn of two drops">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-grid">
+                    <div class="result-card">
+                        <img src="images/results/plants/pilea-peperomioides.jpg" alt="">
+                        <p class="plant-info">Pilea peperomioides</p>
+                        <div style="display: flex;justify-content: space-around;">
+                            <p class="plant-info">$50</p>
+                            <div>
+                                <img src="images/results/icons/skull.svg" alt="draw of a skull">
+                                <img src="images/results/icons/noSun.svg" alt="circle with a line through">
+                                <img src="images/results/icons/threeDrops.svg" alt="draw of three drops">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card">
+                        <img src="images/results/plants/calathea-triostar.jpg" alt="">
+                        <p class="plant-info">Calathea triostar</p>
+                        <div style="display: flex;justify-content: space-around;">
+                            <p class="plant-info">$50</p>
+                            <div>
+                                <img src="images/results/icons/skull.svg" alt="draw of a skull">
+                                <img src="images/results/icons/noSun.svg" alt="circle with a line through">
+                                <img src="images/results/icons/threeDrops.svg" alt="draw of three drops">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card">
+                        <img src="images/results/plants/monstera-deliciosa.png" alt="">
+                        <p class="plant-info">Monstera deliciosa</p>
+                        <div style="display: flex;justify-content: space-around;">
+                            <p class="plant-info">$50</p>
+                            <div>
+                                <img src="images/results/icons/skull.svg" alt="draw of a skull">
+                                <img src="images/results/icons/noSun.svg" alt="circle with a line through">
+                                <img src="images/results/icons/threeDrops.svg" alt="draw of three drops">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#top">
+                <div class="footer">
+                    <img src="images/results/icons/arrow.svg" alt="">
+                    <p>Back to the top</p>
+                </div>
+            </a>
+        </section>
+
+    </div>
+</body>
+
+</html>
